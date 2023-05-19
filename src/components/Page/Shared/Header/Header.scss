@@ -1,0 +1,30 @@
+.header-wrapper {
+  // height: var(--header-height);
+
+  // border: 1px solid red;
+
+  .header-container {
+    // height: var(--header-height);
+  }
+  .header-transparent {
+    display: none;
+    align-items: center;
+
+    justify-content: space-between;
+
+    z-index: 1000;
+
+    position: fixed;
+    // background-color: blue;
+    height: 70px;
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    .header-transparent {
+      // background-color: blue;
+      display: flex;
+      height: 70px;
+      width: 100%;
+    }
+  }
+}

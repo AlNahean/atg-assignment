@@ -1,0 +1,18 @@
+*:focus {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form-control:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+input::placeholder {
+  color: #3b3e403a(145, 162, 240) !important;
+  // font-weight: bold;
+  font-size: 1rem !important;
+  text-align: left;
+}

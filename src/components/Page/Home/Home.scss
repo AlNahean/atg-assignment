@@ -1,0 +1,38 @@
+.hero-header {
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  // .hero-image-img {
+  //   position: relative;
+  // }
+  // .hero-image-img::after {
+  //   content: "";
+  //   position: absolute;
+  //   height: 100vh;
+  //   width: 100vw;
+  //   background-color: red;
+  // }
+  .img-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .text-container {
+    position: absolute;
+    bottom: 3rem;
+    left: 0px;
+  }
+}
+.custom-card-img-style {
+  height: 25vh;
+  object-fit: cover;
+  object-position: center;
+}
