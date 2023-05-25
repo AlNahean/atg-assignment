@@ -13,7 +13,7 @@ const initialState = {
 const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(Reducer, initialState);
   const [test, setTest] = useState("Context Text");
-  const [showRegisterModal, setShowRegisterModal] = useState(true);
+  const [showRegisterModal, setShowRegisterModal] = useState(false);
 
   return (
     <AppContext.Provider

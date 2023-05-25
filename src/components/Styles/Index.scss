@@ -1,4 +1,8 @@
+$theme-colors: (
+  "custom-color": #900,
+);
+
 @import url(./_rootVariables.scss);
-@import url(../../../node_modules/bootstrap/dist/css/bootstrap.css);
+@import url(../../../node_modules/bootstrap/scss/bootstrap.scss);
 @import url(./_commonCustom.scss);
 @import url(./_custom.scss);
